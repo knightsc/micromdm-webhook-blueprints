@@ -5,9 +5,9 @@ These blueprints are meant to show typical actions you might want to perform in 
 
 All of the examples take 3 command line arguements:
 
-* *port* - port for the webhook server to listen on (default 80)
-* *server-url* - public HTTPS url of your MicroMDM server
-* *api-key* - API Key for your MicroMDM server
+* **port** - port for the webhook server to listen on (default 80)
+* **server-url** - public HTTPS url of your MicroMDM server
+* **api-key** - API Key for your MicroMDM server
 
 ## Go
 
