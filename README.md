@@ -14,9 +14,17 @@ All of the examples take 3 command line arguements:
 ```
 cd go
 go build -o micromdm-webhook
-./micromdm-webhook -server-url https://my-server-url -api-key MySecretAPIKey 
+./micromdm-webhook -server-url https://my-server-url -api-key MySecretAPIKey
 ```
 
 ## Python
+
+```
+cd python
+virtualenv env
+source env/bin/activate
+pip install -r requirements.txt
+python micromdm-webhook.py https://my-server-url MySecretAPIKey
+```
 
 ## NodeJS

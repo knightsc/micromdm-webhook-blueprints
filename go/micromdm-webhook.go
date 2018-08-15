@@ -119,7 +119,7 @@ func main() {
 	var (
 		flPort      = flag.Int("port", 80, "port for the webhook server to listen on")
 		flServerURL = flag.String("server-url", "", "public HTTPS url of your MicroMDM server")
-		flAPIKey    = flag.String("api-key", "", "API Key for your MicroMDM server")
+		flAPIKey    = flag.String("api-token", "", "API Token for your MicroMDM server")
 	)
 	flag.Parse()
 
