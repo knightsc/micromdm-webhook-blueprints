@@ -107,7 +107,7 @@ def main():
     parser.add_argument(
         '-p', '--port', help='port for the webhook server to listen on', default=80, type=int)
     args = parser.parse_args()
-    print args
+    
     server['server_url'] = args.server_url
     server['api_token'] = args.api_token
 
