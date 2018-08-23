@@ -44,12 +44,13 @@ def handle_authenticate(event):
     """Authenticate messages are sent when the device is installing a MDM payload."""
 
     udid = event['checkin_event']['udid']
-    insert_or_update_device(udid, False)
 
     if udid in server['devices']:
         app.logger.info('re-enrolling device {}'.format(udid))
     else:
         app.logger.info('enrolling new device {}'.format(udid))
+
+    insert_or_update_device(udid, False)
 
 
 def handle_token_update(event):
