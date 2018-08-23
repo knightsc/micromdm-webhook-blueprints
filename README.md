@@ -28,3 +28,9 @@ python micromdm-webhook.py https://my-server-url MySecretAPIKey
 ```
 
 ## NodeJS
+
+```
+cd nodejs
+npm install
+node micromdm-webhook.js https://my-server-url MySecretAPIKey
+```
